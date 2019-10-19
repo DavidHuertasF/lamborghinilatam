@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  position: relative;
+  background: black !important;
+}
+
+.bb {
+  margin-left: 1% !important;
+  background: #5a5c5c !important;
+}
+
+.header {
+  overflow: hidden;
+  background-color: black;
+  padding: 20px 10px;
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+}
+
+.carousel-indicators .active {
+  background-color: #fff !important;
+}
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 25px;
+  border-radius: 4px;
+  margin-left: 2%;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  float: right;
+}
+
+.header a:hover {
+    color: #d4a40d;
+    text-decoration: none;
+  }
+
+.header a.active {
+  color: #d4a40d;
+}
+
+
+
+.logo {
+  width: 9rem;
+  float: right;
+}
+
+.sombra {
+  width: 100%;
+  position: absolute !important;
+  margin-top: -1%;
+  position: absolute;
+  left: 0px;
+  z-index: 4;
+}
+
+.carousel-indicators {
+  background: black;
+  width: 100% !important;
+  margin-left: -51% !important;
+  bottom: -15px !important;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  position: absolute;
+  z-index: 1 !important;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+video {
+  margin-left: 10%;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  height: auto;
+  margin-bottom: -50px;
+}
+
+.note {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+}
+.notef {
+  width: 100%;
+  height: auto;
+  margin-top: -26px;
+}
+.des-note {
+  background: #282a2699;
+  width: 34%;
+  margin-left: 5%;
+  position: absolute !important;
+  padding-top: 7%;
+  margin-top: 30px;
+  padding-left: 4%;
+}
+
+.cont-note {
+  margin-top: -23px;
+}
+
+.right-des {
+  width: 60%;
+  float: left;
+  padding-left: 4%;
+  border-left: 2px solid #ff9800;
+}
+
+.right-p {
+  color: white;
+  margin-left: 5px;
+  width: 120%;
+  font-size: 1.5vw;
+}
+
+.right-p-l {
+    color: white;
+    margin-left:5px;
+    width: 110%;
+    font-size: 1.1vw;
+  }
+
+.left-p {
+  color: white;
+  font-size: 1vw;
+  margin-top: 18%;
+  margin-right: 6%;
+  float: left;
+}
+
+.most{
+    background:#6e5600 ;
+}
+@media screen and (max-width: 1100px) {
+  .header a {
+    font-size: 12px;
+  }
+  .logo {
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .logo {
+    width: 0rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}
