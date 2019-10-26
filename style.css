@@ -67,7 +67,7 @@ body {
 .carousel-indicators {
   background: black;
   width: 100% !important;
-  margin-left: -51% !important;
+  margin-left: -50% !important;
   bottom: -15px !important;
   padding-top: 3px;
   padding-bottom: 3px;
@@ -82,10 +82,9 @@ body {
 }
 
 video {
-  margin-left: 10%;
+  
   margin-right: auto;
   display: block;
-  width: 80%;
   height: auto;
   margin-bottom: -50px;
 }
