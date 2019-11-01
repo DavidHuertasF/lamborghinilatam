@@ -4,6 +4,14 @@ body {
   background: black !important;
 }
 
+.fab{
+margin: 2%;
+  margin-right: 8px;
+   color: white;
+   font-size: 170%;
+   padding-right: 5%;
+}
+
 .bb {
   margin-left: 1% !important;
   background: #5a5c5c !important;
